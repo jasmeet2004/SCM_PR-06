@@ -71,4 +71,4 @@ This project aims to create a user-friendly web application for login and regist
 - **Remember Me:** Ability for users to enable the "Remember Me" feature for automatic login.
 - **Social Media Integration:** Users can sign up using their social media accounts such as Facebook, Twitter, and Google.
 
-🔒🌟💻 Don't miss out on this exciting project! Start your secure login and registration journey today! 🚀🔑
+🔒🌟💻 Don't miss out on this exciting project! Start your secure login and registration journey today!! 🚀🔑
