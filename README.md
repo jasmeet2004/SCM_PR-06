@@ -11,7 +11,7 @@
   - Roll No. : 2310992106
   - GitHub: https://github.com/AnkitBansal2106
 - **Member 2** 👤
-  - Name: Jasleen Kaur
+  - Name: Jasleen 
   - Roll No. : 2310992107
   - GitHub: https://github.com/Jasleen45
 
