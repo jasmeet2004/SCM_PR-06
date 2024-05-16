@@ -464,7 +464,7 @@
         <form>
             <div class="a"><m>LOGIN</m></div>
             <div class="b"><i class="fa-solid fa-user"></i><input type="text" name="username" maxlength="30" placeholder=" Username" class="c"></div>
-            <div class="d"> <i class="fa-solid fa-lock"></i><input type="password" name="password" maxlength="30"placeholder=" Password"class="c" id="password"><div class="q"></div></i></div>
+            <div class="d"> <i class="fa-solid fa-lock"></i><input type="password" name="password" maxlength="30"placeholder=" Password"class="c" id="password"><div class="q"><i class="fa-solid fa-eye-slash" id="eyeicon"></div></i></div>
             <div class="e"><input type="checkbox" name="p" class="checkbox">Remember me? <a href="" class="ab">Forgot password?</a></div>
             <div class="f"><button ="submit">Login</div>
             <div class="h">Don't have an account?<a href="Login Authentication 2.html" target="_new" class="hover">Register</a></div>
@@ -477,6 +477,23 @@
             </div>
         </form>
     </div>
-  
+    <script>
+        let eyeicon = document.getElementById("eyeicon");
+let password = document.getElementById("password");
+
+eyeicon.addEventListener("click", function() 
+{
+    if (password.type == "password") {
+        password.type = "text";
+        eyeicon.classList.remove("fa-eye-slash");
+        eyeicon.classList.add("fa-eye");
+    } else {
+        password.type = "password";
+       
+        eyeicon.classList.remove("fa-eye");
+        eyeicon.classList.add("fa-eye-slash");
+    }
+})
+    </script>
 </body>
 </html>
