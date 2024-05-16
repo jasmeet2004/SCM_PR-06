@@ -3,95 +3,131 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-   title>
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/c2b480919e.js" crossorigin="anonymous"></script>
     <style>
+       
         *
         {
-            margin:0;
-            padding:0;
             box-sizing: border-box;
         }
-    .background
-    {
-        background-image: url(wallpaper.avif);
-        height:100vh;
-        background-size:cover;
-        background-repeat: no-repeat;
-      
-    }
-    div
-    {
-        display:inline-block;
-       
-    }
-    .a{
-        position:absolute;
-        height:550px;
-        width:1100px;
-        border:0px solid black;
-        background-color: azure;
-        border-radius: 20px;
-        opacity: 0.95;
-        left:100px;
-        top:80px;
+        html,body
+        {
+           
+           display: flex;
+           flex-direction:row;
+           align-items: center;
+           justify-content: center;
+           background-image: linear-gradient(aqua,purple);
+           background-repeat: no-repeat;
+           background-size: cover;
+           height: 99.99%;
+           
+        }
+        .image
+        {
+            height: 550px;
+            width: 550px;
         
-    }
-    
-    .b
-    {
-         
-        font-family:'Times New Roman', Times, serif; 
-        position:absolute;
-        right: 220px;
-    }
-    .c
-    {
-        border:2px solid black;
-        border-radius: 10px;
-        height:30px;
-        width:400px;
-        position: absolute;
-        right:80px;
-        padding-left: 10px;
-        font-weight: bold;
-    }
-
-    .d
-    {
-      position:absolute;
-      right:400px;
-      top:150px;
-      font-weight: bold;
-      
-    }
-    .e
-    {
-      position:absolute;
-      top:150px;
-      right:35px;
-      font-weight: bolder;
-      font-size: 17px;
-      transition-property: all;
-     transition-duration: 5s;
-    }
-    .ab:hover
-    {
-        color:crimson;
-        font-size: 20px;
-    }
-    
-    .f
-    {
-     
-     position:absolute;
-     right:80px;
-     top:200px;
-     font-size: 17px;
-     transition-property: all;
-     transition-duration: 5s;
-    }
-    button
+           
+           
+        }
+        .form
+        {
+            height: 550px;
+            width: 550px;
+            margin-left: -12px;
+            background-color: azure;
+            border-radius: 5px;
+        }
+        #imgg
+        {
+            height: 550px;
+            width: 550px;
+            border-radius: 10px;
+            border: none;
+            margin: 0px;
+            box-shadow: none;
+            transition: none;
+        }
+        .a
+        {
+            display: flex;
+            justify-content: center;
+            /* border: 2px solid black; */
+           
+        }
+        m
+        {
+           font-size: 35px;
+           font-family:'Times New Roman', Times, serif; 
+           font-weight: bolder;
+           
+        }
+        .b
+        {
+            
+            
+            margin-top: 15px;
+            display: flex;
+            justify-content: center;
+            /* align-items: center; */
+        }
+        .c
+        {
+            border:3px solid black;
+            height: 45px;
+            width: 400px;
+            border-radius: 15px;
+            font-weight: bolder;
+            padding-left: 10px;
+            font-size: 20px;
+           
+        }
+        i{
+            margin-right: 20px;
+            margin-top:8px;
+            font-size: 28px;
+        } 
+        .d
+        {
+           
+          
+            margin-top: 10px;
+            display: flex;
+            justify-content: center;
+            
+            
+        }
+        .e
+        {
+           
+            margin-top: 25px;
+            font-weight: bolder;
+            font-size: 20px;
+            display: flex;
+            align-items: center;
+            
+            
+        }
+       
+        .ab
+        {
+            
+            cursor: pointer;
+            margin-left: 190px;
+        }
+        .ab:hover
+        {
+            color: red;
+        }
+        .checkbox
+        {
+           cursor: pointer;
+           margin-left: 30px;
+           
+        }
+        button
     {   border:1px solid black;
         border-radius: 50px;
         height:40px;
@@ -101,115 +137,332 @@
         color:azure;
         cursor: pointer;
         transition-property: all;
-        transition-duration: 0.5s;
+        transition-duration: 0.1s;
         background-image: linear-gradient(purple,black);
-    }
-    
-    .h
-    {
-        position:absolute;
-        top:270px;
-        right:170px;
-        font-size: large;
-        font-weight: bold;
-    }
-    .i
-    {
-        position:absolute;
-        top:330px;
-        right: 220px;
-    }
-    .ji
-    {
-       position:absolute;
-       top:60px;
-       right:490px;
-       font-size: 20px;
-    }
-    .ji2
-    {
-       position: absolute;
-       top: 110px;
-       right:490px;
-      font-size: 20px;
     }
    
     
-    img{
+     .f
+    {
+       
+        margin-top: 25px; 
+        display: flex;
+        justify-content: center;
+    }
+    .h
+    {
+        font-size: large;
+        font-weight: bolder;
+        margin-top: 20px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .hover:hover
+    {
+        cursor: pointer;
+        color: crimson;
+    }
+    .i
+    {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40px;
+        font-size: large;
+        
+    }
+    .imggg{
             border: 2px solid black;
             border-radius: 105px;
             height: 50px;
             width: 50px;
             /* opacity: 0.9; */
+            margin: 20px;
             transition-property: all;
             transition-duration: 0.5s;
             
         }
       
        
+
         .abc
         {
-            height:100px;
-            width:300px;
-           
-            box-sizing: border-box;
-            position:absolute;
-            
+            margin-top: 20px;
             display: flex;
-            justify-content: space-evenly;
-          
-            position:absolute;
-            top:390px;
-            right:135px;
+            justify-content: center;
         }
-        .checkbox
+        #eyeicon
         {
-             cursor: pointer;
+            
+            cursor: pointer;
+            margin-top: 8px;
+            font-size:25px;
+           
         }
-        #img4
+        .q
         {
-            height: 550px;
-            width: 550px;
-            box-shadow: none;
-            position:absolute;
-            left:0px;
-            top:0px;
-            border-radius: 20px;
-            border:1px solid white;
+           
+            display: flex;
+            cursor: pointer;
+            /* align-items: center; */
+            height: 45px;
+            width:50px;
+            margin-left: -48px;
+            
+            
         }
-   
+         
+        @media (max-width:1106px) and (min-width:914px) {
+            
+            .image
+            {
+                height: 450px;
+                width:450px;
+            }
+            .form
+            {
+                height: 450px;
+                width:450px;
+               
+            }
+            #imgg
+            {
+                height: 450px;
+                width:450px;
+            }
+            m
+            {
+                font-size:30px;
+            }
+            .c
+            {
+                height: 40px;
+                width: 330px;
+                font-size: 15px;
+            }
+            i
+            {
+                font-size: 30px;
+                margin-right: 15px;
+                
+            }
+            .e
+            {
+                font-size: 15px;
+                
+            }
+            .ab
+            {
+                margin-left: 170px;
+            }
+            button
+            {
+                height:40px;
+                 width:350px;
+            }
+            .i
+            {
+                margin-top: 25px;
+            }
+            .imggg{
+                height:40px;
+                width: 40px;
+            }
+            .abc
+            {
+               margin-top: 10px;
+            }
+            #eyeicon
+           {
+            font-size: 25px;
+            margin-top: 7px;
+            
+           }
+           
+        .q
+        {
+           margin-left: -48px;
+           height: 40px;
+           width:50px
+        }
+        
+        
+    }
+
+        @media (max-width:914px) 
+        {
+            
+            
+            body
+            {
+                display: flex;
+                flex-direction: column;
+            }
+            .image
+            {
+                height: 40vh;
+                width:70vw;
+                
+            }
+            .form
+            {
+                margin-left: 0px;
+                width:70vw;
+                height: 48vh;
+                margin-top: -12px;
+            }
+            #imgg
+            {
+                height: 40vh;
+                width:70vw;
+            }
+            m
+            {
+                font-size: 6vw;
+            }
+            .a
+               {
+                  margin-top: 3px;
+            
+               }
+            .c
+            {
+                height: 4vh;
+                width: 55vw;
+                font-size: 1.5vh;
+                border:2.5px solid black;
+            }
+            i
+            {
+                font-size: 3vh;
+                margin-right:1.5vw;
+                margin-top: 3px;
+
+            }
+            .ab
+            {
+                margin-left:24vw;
+            }
+            .e
+            {
+                font-size: 2.5vw;
+                margin-top: 2vw;
+            }
+            .checkbox
+            {
+                margin-left:3vw;
+            }
+            button
+            {
+                height: 3.2vh;
+                width: 50vw;
+                font-size:3vw;
+            }
+            button:hover
+            {
+                height:4vh;
+                width:55vw;
+            }
+            .f
+            {
+                margin-top: 3vw;
+            }
+            .h
+            {
+                font-size: 2.7vw;
+                margin-top: 2.5vh;
+            }
+            .i
+            {
+                font-size: 3vw;
+                margin-top: 4vh;
+            }
+            .imggg{
+                height:7vw;
+                width: 7vw;
+            }
+            img:hover
+            {
+                height:8vw;
+                width:8vw;
+            }
+            .abc
+            {
+               margin-top: 1vw;
+            }
+            #eyeicon
+           {
+            font-size: 2vh;
+            margin-top:11px;
+           }
+          .q
+          {
+            margin-left: -5.3vw;
+            height:4vh;
+            width: 5.5vw;
+          }
+        }
+        @media (max-width:716px) 
+        {
+            #eyeicon
+           {
+            font-size: 1.7vh;
+            margin-top: 11px;
+           }
+           .q
+          {
+            margin-left: -5.7vw;
+            width: 6vw;
+          } 
+           
+        }
+        @media(max-width:528px)
+        {
+            #eyeicon
+            {
+                margin-top: 2vw;
+            }
+            .q
+          {
+            margin-left: -9vw;
+            width: 10vw;
+          }
+        }
+        @media(max-width:430px)
+        {
+            #eyeicon
+            {
+                
+                margin-top: 1vh;                
+            }
+            .q
+          {
+            margin-left: -8vw;
+            width: 9vw;
+          }
+        }
     </style>
 </head>
-<body class="background">
+<body>
+    <div class="image"><img src="freelancer 2.avif" alt=""id="imgg"></div>
+    <div class="form">
+        <form>
+            <div class="a"><m>LOGIN</m></div>
+            <div class="b"><i class="fa-solid fa-user"></i><input type="text" name="username" maxlength="30" placeholder=" Username" class="c"></div>
+            <div class="d"> <i class="fa-solid fa-lock"></i><input type="password" name="password" maxlength="30"placeholder=" Password"class="c" id="password"><div class="q"></div></i></div>
+            <div class="e"><input type="checkbox" name="p" class="checkbox">Remember me? <a href="" class="ab">Forgot password?</a></div>
+            <div class="f"><button ="submit">Login</div>
+            <div class="h">Don't have an account?<a href="Login Authentication 2.html" target="_new" class="hover">Register</a></div>
+            <div class="i"><b>Or Sign-up Using</b></div>
+            <div class="abc">
+             <a href="https://m.facebook.com" target="_new"><img src="facebook.png" alt="facebook" class="imggg"></a>
+                <a href="https://twitter.com" target="_new"><img src="twitter.png" alt="twitter" class="imggg"></a>
+                <a href="https://accounts.google.com" target="_new"><img src="google.avif" alt="google" class="imggg"></a>
     
-    <div class="a">
-    <form>
-    <div class="b"><b  style="font-size: xx-large;">LOGIN</b></div><br>
-    <br>
-    <div class="ji"><i class="bx bxs-user" id="name"></i></div>
-    <div><input type="text" name="username" size="30" maxlength="30" placeholder=" Username" class="c"> </div><br> 
-    <br>
-    <br>
-    <div class="ji2"><i class='bx bxs-lock-alt' id="dff"></i></div>
-    <div><input type="password" name="password" size="60" maxlength="30"placeholder=" Password"class="c"></div><br>
-    <br>
-    <div class="d"><input type="checkbox" name="c" class="checkbox" >Remember me?</div>
-    <div class="e" ><a href="" class="ab">Forgot password?</a></div><br>
-    <br>
-    <div class="f"><button ="submit">Login</div><br>
-    <br>
-    <div class="h">Don't have an account?<a href="fee project 3.html"class="ab" target="_new">Register</a></div><br>
-    <br>
-    <div class="i" style="font-size: large;"><b>Or Sign-up Using</b></div>
-    <div class="abc">
-    
-        <a href="https://m.facebook.com" target="_new"><img src="facebook.png" alt="facebook" class="img1"></a>
-        <a href="https://twitter.com" target="_new"><img src="twitter.png" alt="twitter" class="img2"></a>
-        <a href="https://accounts.google.com" target="_new"><img src="google.avif" alt="google" class="img3"></a>
+            </div>
+        </form>
     </div>
-    <div ><img src="freelancer 2.avif" alt="freelancer" id="img4" ></div>
-    </form>
-   
     
 </body>
 </html>
