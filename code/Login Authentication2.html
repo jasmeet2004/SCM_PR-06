@@ -425,7 +425,7 @@
             <div class="b"><i class="fa-solid fa-envelope"></i><input type="text" name="e-mail" maxlength="30" placeholder="E-mail"
             class="c"></div>
             <div class="b"><i class="fa-solid fa-user"></i><input type="text" name="username" maxlength="30" placeholder=" Username" class="c"></div>
-            <div class="b"> <i class="fa-solid fa-lock"></i><input type="password" name="password" maxlength="30"placeholder=" Password"class="c" id="password"><div class="q"></div></div>
+            <div class="b"> <i class="fa-solid fa-lock"></i><input type="password" name="password" maxlength="30"placeholder=" Password"class="c" id="password"><div class="q"><i class="fa-solid fa-eye-slash" id="eyeicon"></i></div></div>
             <div class="e">By clicking on register you agree our<v>Terms and conditions</v></div>
             <div class="f"><button ="submit">Register</div>
             <div class="h">Already have an account?<a href="Login Authentication.html" target="_new" class="hover">Login</a></div>
@@ -434,7 +434,24 @@
         </form>
 
     </div>
-  
+    <script>
+        let eyeicon = document.getElementById("eyeicon");
+let password = document.getElementById("password");
+
+eyeicon.addEventListener("click", function() 
+{
+    if (password.type == "password") {
+        password.type = "text";
+        eyeicon.classList.remove("fa-eye-slash");
+        eyeicon.classList.add("fa-eye");
+    } else {
+        password.type = "password";
+       
+        eyeicon.classList.remove("fa-eye");
+        eyeicon.classList.add("fa-eye-slash");
+    }
+})
+    </script>
 </body>
 </html>
 
