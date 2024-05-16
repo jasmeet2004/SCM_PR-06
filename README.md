@@ -24,7 +24,7 @@
 
 ### 🎯 Milestones
 
-### [26-4-2024] - Milestone 1
+### [09-05-2024] - Milestone 1
 
 ✅ Set up project repository
 
@@ -34,13 +34,13 @@
 
 ✅ Release version 1.0-
 
-### [29-4-2024] - Milestone 2
+### [11-05-2024] - Milestone 2
 
 ✅ Complete frontend development
 
 ✅ Begin testing phase
 
-### [3-5-2024] - Milestone 3
+### [12-05-2024] - Milestone 3
 
 ✅ Finish testing
 
@@ -48,16 +48,16 @@
 
 ✅ Prepare for project submission
 
-### [8-5-2024] - Completion
+### [16-05-2024] - Completion
 
 ✅ Complete final checks
 
-✅ Release version 2.0
+✅ Release version 3.0
 
 ✅ Submit project
 
 ### 🏁 Completion
-- Project Completion: 8th MAY
+- Project Completion: 16th MAY
 
 ## 🌟 Project Overview
 
